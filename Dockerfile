@@ -19,7 +19,8 @@ Run apt-get update && \
 
 #Specify working folder
 
-WORKDIR "/"
+RUN mkdir /projects
+WORKDIR "/projects"
 
 
 #Run shell
