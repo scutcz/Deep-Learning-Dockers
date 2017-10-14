@@ -14,13 +14,13 @@ Run apt-get update && \
 
 #Install TensorFlow CPU
 
-    pip3 install --upgrade tensorflow && \
+    pip3 install --upgrade tensorflow
 
 
 #Specify working folder
 
-RUN mkdir /projects
-WORKDIR "/projects"
+RUN mkdir /workspace
+WORKDIR "/workspace"
 
 
 #Run shell
