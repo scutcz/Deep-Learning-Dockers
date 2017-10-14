@@ -17,10 +17,9 @@ Run apt-get update && \
     pip3 install --upgrade tensorflow && \
 
 
-# Specify working folder
+#Specify working folder
 
-RUN mkdir /workspace
-WORKDIR "/workspace"
+WORKDIR "/"
 
 
 #Run shell
