@@ -24,6 +24,10 @@ RUN mkdir /workspace
 WORKDIR "/workspace"
 
 
+#For Tensorboard
+EXPOSE 6006
+
+
 #Run shell
 
 CMD ["/bin/bash"]
